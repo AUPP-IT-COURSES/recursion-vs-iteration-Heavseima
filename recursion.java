@@ -13,7 +13,7 @@ public class recursion {
     if (str.isEmpty()) {
       return str;
     } else {
-      return reverseString(str.substring(1)) + str.charAt(0);
+      return reverseStr(str.substring(1)) + str.charAt(0);
     }
   }
 }
